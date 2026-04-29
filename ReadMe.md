@@ -58,15 +58,15 @@ git clone https://github.com/xPlume/Firefox-Full-Screen.git
 
 5. Transfer the files **config.js** and **config.cfg** into the folder of your Mozilla Firefox installation.
 
-6. In your folder of your Mozilla Firefox installation, go to the directory *default/prefs*, and inside it, paste the file **config-prefs.js**
+6. In that same folder, go to the directory *default/prefs*, and inside it, paste the file **config-prefs.js**
 
-7. Back to Mozilla Firefox, search for
+7. Back to the Firefox browser, search for
 ```bash
 about:support
 ```
 and in the **Profile Folder** select "Open Folder".
 
-8. Inside that folder, paste the **Chrome** directory.
+8. Inside that folder, paste the **Chrome** directory provided in the repository.
 
 9. Close and re-launch Firefox. Test the behavior after accessing any website (do not stay on the new tab).
 
