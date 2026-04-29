@@ -18,11 +18,11 @@
 
 ## Project Description
 
-Firefox is amongst the most used browsers today. By default, it offers two main usage modes: default, and fullscreen. In the normal mode, certain UI elements are constantly present: tabs, URL bar, close button, and potentially the bookmarks toolbar depending on the configuration. 
+Firefox is amongst the most used browsers today. By default, it offers two main usage modes: default, and fullscreen. In the default mode, certain UI elements are constantly present: tabs, URL bar, close button, and potentially the bookmarks toolbar depending on the configuration. 
 
-In fullscreen, all these UI elements get hidden, offering a more immersive experience, with more screen real-estate to enjoy the content of the websites. However, to access these objectively useful UI buttons, exiting the full-screen mode is required. 
+In fullscreen, all these UI elements get hidden, offering a more immersive experience, with more screen real-estate to enjoy the content of the websites. However, to access these objectively useful UI buttons, exiting the fullscreen mode is required. 
 
-The goal of this project is to provide an in-between. We will be modifying the behavior of the browser on its 'default' mode. Replicating the full-screen mode, the UI elements will get automatically hidden, allowing more pixels to be used by the content of the websites instead of being used by the browser. Bringing the mouse up to the top of the screen will make these previously hidden UI elements to appear again, removing the need to 'exit' the full-screen mode.
+The goal of this project is to provide an in-between. We will be modifying the behavior of the browser on its default mode. Replicating the fullscreen mode, the UI elements will get automatically hidden, allowing more pixels to be used by the content of the websites instead of being used by the browser. Bringing the mouse up to the top of the screen will make these previously hidden UI elements to appear again, removing the need to exit the fullscreen mode.
 
 
 ---
@@ -72,11 +72,11 @@ cd Firefox-Full-Screen
 
 You will find in the file **userChrome.css** (present under the chrome directory) the following lines:
 ```css
-	/* For horizontal tabs */
-	--uc-autohide-toolbar-height: 84px;
-	
-	/* For vertical tabs */
-	/* --uc-autohide-toolbar-height: 39px */
+/* For horizontal tabs */
+--uc-autohide-toolbar-height: 84px;
+
+/* For vertical tabs */
+/* --uc-autohide-toolbar-height: 39px */
 ```
 Initially, this setup is for horizontal tabs. However, the tabs will be hidden too. 
 If you want to use vertical tabs instead, comment the line 
