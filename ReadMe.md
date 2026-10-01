@@ -73,7 +73,7 @@ cd Firefox-Full-Screen
 You will find in the file **userChrome.css** (present under the chrome directory) the following lines:
 ```css
 /* For horizontal tabs */
---uc-autohide-toolbar-height: 84px;
+--uc-autohide-toolbar-height: 83px;
 
 /* For vertical tabs */
 /* --uc-autohide-toolbar-height: 39px */
@@ -81,7 +81,7 @@ You will find in the file **userChrome.css** (present under the chrome directory
 Initially, this setup is for horizontal tabs. However, the tabs will be hidden too. 
 If you want to use vertical tabs instead, comment the line 
 ```css
---uc-autohide-toolbar-height: 84px;
+--uc-autohide-toolbar-height: 83px;
 ```
 and uncomment the line 
 ```css
@@ -90,7 +90,7 @@ and uncomment the line
 
 ### Please Note
 
-The values *84px* and *39px* worked for my own use case. I do not know how well or not, they will work with other resolutions. 
+The values *83px* and *39px* worked for my own use case. I do not know how well or not, they will work with other resolutions. 
 If the implementation is imperfect for you, change the values of the variable until the implementation is satisfactory. To test, close and relaunch Firefox, and head to any website (do not stay on the new tab page).
 
 Do keep in mind: to make sure the drop-down on mousehover functions, you NEED to leave 1px of space. Example: if the URL bar takes exactly 40px of height, input as value for the variable: 39px.
