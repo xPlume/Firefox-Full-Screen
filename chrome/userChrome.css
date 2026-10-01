@@ -3,7 +3,7 @@
 	--uc-autohide-toolbar-height: 83px;
 	
 	/* For vertical tabs */
-	/* --uc-autohide-toolbar-height: 39px */
+	/* --uc-autohide-toolbar-height: 39px; */
 }
 
 /* Only hide the bar if the window is MAXIMIZED */
